@@ -11,11 +11,11 @@ const refs = {
 // refs.email.addEventListener('email', onEmail);
 refs.textarea.addEventListener('textarea', onTextarea);
 
-function onTextarea(e) {
-    const message = e.currentTarget.value;
+// function onTextarea(e) {
+//     const message = e.currentTarget.value;
 
-    localStorage.setItem('feedback-msg', message)
-}
+//     localStorage.setItem('feedback-msg', message)
+// }
 
 const meaasge = "hallo";
 console.log(message);
