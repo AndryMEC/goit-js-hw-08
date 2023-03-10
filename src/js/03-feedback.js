@@ -8,7 +8,7 @@ const refs = {
 };
 
 // refs.form.addEventListener('submit', onFormSubmit);
-refs.email.addEventListener('email', onEmail);
+// refs.email.addEventListener('email', onEmail);
 refs.textarea.addEventListener('textarea', onTextarea);
 
 function onTextarea(e) {
