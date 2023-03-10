@@ -17,5 +17,5 @@ const refs = {
 //     localStorage.setItem('feedback-msg', message)
 // }
 
-const meaasge = "hallo";
-console.log(message);
+// const meaasge = "hallo";
+console.log("hallo");
