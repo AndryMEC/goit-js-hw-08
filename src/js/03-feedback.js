@@ -7,7 +7,7 @@ const refs = {
     textarea: document.querySelector('.feedback-form textarea'),
 };
 
-refs.form.addEventListener('submit', onFormSubmit);
+// refs.form.addEventListener('submit', onFormSubmit);
 refs.email.addEventListener('email', onEmail);
 refs.textarea.addEventListener('textarea', onTextarea);
 
