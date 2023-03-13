@@ -16,6 +16,7 @@ function onFormInput() {
 
 function onFormSubmit(e) {
   e.preventDefault();
+  console.log({ email: email.value, message: message.value });
   localStorage.removeItem('feedback-form-state');
   e.target.reset();
 }
